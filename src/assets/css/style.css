@@ -1,0 +1,87 @@
+*{-webkit-transition:all .2s ease; -o-transition:all .2s ease; -ms-transition:all .2s ease; transition:all .2s ease; outline: 0;}
+body {font-family: 'Spartan', sans-serif; font-size: 16px; line-height: 30px; font-weight: 400; color: #999999;}
+h1{font-size: 48px; margin-bottom:50px; font-weight: 900; color: #4c4c4c;}
+h2{font-size: 38px; margin-bottom:40px; font-weight: 700; color: #4c4c4c;}
+h3, h4, h5, h6{ margin-bottom: 30px; font-weight: 600; color: #4c4c4c;}
+h3{font-size: 30px;}
+h4{font-size: 25px;}
+h5{font-size: 20px;}
+h6{font-size: 16px;}
+a{text-decoration: none;}
+a:hover, a:active {color: #49c5b6; text-decoration: none;}
+p{margin-bottom:25px;}
+ul,ul li{list-style:none;margin:0;padding:0}
+header, section, footer {position: relative;width: 100%;}
+section { padding: 80px 0;}
+button, input, select, .btn{font-size:13px;}
+.btn{padding: 0 25px; font-weight: 600; line-height: 35px;}
+.btn:focus, .btn:hover, .btn:active{border:2px solid; border-color: #49c5b6; color: #4c4c4c; background-color: transparent; box-shadow: none;}
+.btn-primary{border:2px solid #49c5b6; background-color: #49c5b6;}
+.pd0{padding: 0;}
+.pdL0{padding-left: 0;}
+.pdR0{padding-right: 0;}
+.pdT0{padding-top: 0;}
+.pdB0{padding-bottom: 0;}
+.fsbold{font-weight: 600;}
+.fbold{font-weight: 700;}
+.fblack{font-weight: 900;}
+/* Common css */
+.nav-link{position: relative;}
+.hero-wrap h2 span, .srvcIcon{ color: #49c5b6;}
+.navbar ul li a{color: #4c4c4c;}
+
+/* Header css */
+.header {background:transparent; position: absolute; top: 0; left: 0; width: 100%; height: auto; z-index: 3;}
+.header-inner {padding: 0 50px;}
+.sticky {position: fixed; background-color: #fff; box-shadow: 0 0 5px #bdbdbd; top: 0; width: 100%;}
+.topheadline{position: relative; display: flex; min-height: 32px; line-height: 32px; color: #bdbdbd; border-bottom:1px solid #545454; width: 100%; text-align: center;}
+.topcallus{order: 1; color: #4c4c4c; }
+.topcallus a{font-size: 12px; }
+/* .welcomemsg{order: 2; font-size: 10px; margin: 0 auto;} */
+.navbar-nav {position: absolute; left: 50%; transform: translate(-50%,0);}
+.navbar-brand {width: 80px; height: auto;}
+.navbar-brand img {max-width: 100%;}
+.navbar{font-size: 14px; padding-top: 12px; padding-bottom: 12px;}
+.nav-item{margin-right: 15px;}
+.nav-item a:hover:after{content: ''; position: absolute; left: 0; bottom: 8px; width: 100%; height: 2px; background-color: #49c5b6;}
+.navbar ul li a:hover, .right-nav li a:hover {color: #49c5b6;}
+.navbar ul li a.active, .right-nav li a:active {color: #49c5b6;}
+.header-contact{position: absolute; right: 20px; order: 3; color: #fff; }
+.right-nav {margin-bottom: 0; padding: 0; list-style: none; font-size: 20px;}
+.right-nav span{font-size: 10px; letter-spacing: 0.5px; color: #4c4c4c}
+.right-nav li a, .topcallus a{color: #4c4c4c;}
+.right-nav li {display: inline-block; margin-right: 15px;}
+.right-nav li:last-child {margin-right: 0;}
+.btn-header{padding: 5px 30px;}
+
+/* Carousel css */
+.carousel{position: relative; max-height: 650px;}
+.carousel-inner{max-height: 650px;}
+.carousel-item{max-height: 650px;}
+.carousel-caption{width: 600px; top: 50%; transform: translate(0,-50%); text-align: left;}
+
+/* Hero css */
+.hero-wrap{width: 100vw; height: 100vh; position: inherit; background-color: #f9f9f9;}
+.hero-wrap .overlay{position: absolute; top: 0; left: 0; opacity: .1; width: 50%; height:100vh; background-color: #49c5b6;}
+.hmContent{position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+.hmheroh1{margin:15px 0 40px;}
+.subheading{font-size: 18px; color: #49c5b6;}
+
+/* About Me css */
+.aboutcnt{padding: 80px 40px 80px 0;}
+.aboutmeimg{position: relative; display: block; width: 100%; height: 100%; z-index: 1; background: url(../img/aboutmeimg.jpg) no-repeat; background-size: cover; background-position: center center;}
+.aboutinfo{margin-bottom: 50px;}
+.aboutinfo li {margin-bottom: 15px;}
+.aboutinfo li span{width: 50%; padding: 0 15px;}
+.aboutinfo li span:first-child{color:#4c4c4c;}
+.aboutinfo li span:last-child{text-align: left;}
+
+/* Services css */
+#services .row{margin: 0 40px;}
+.srvcBox{margin-bottom:5px; padding: 15px; text-align: center;}
+.inSrvcBox{background-color: rgba(255, 255, 255, 0.5); width: 100%; height: 100%; padding:30px; box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);}
+.srvcIcon{margin: 0 20px 20px;}
+.inSrvcBox h6{margin-bottom: 18px; text-transform: uppercase;}
+.inSrvcBox p{margin-bottom:0; font-size: 14px; line-height: 28px;}
+.inSrvcBox:hover{background-color: #49c5b6;}
+.inSrvcBox:hover .srvcIcon, .inSrvcBox:hover h6, .inSrvcBox:hover p{color:#fff}
